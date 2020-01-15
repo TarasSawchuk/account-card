@@ -1,0 +1,67 @@
+$font-color: #4a4a4a;
+
+.accounts-container{
+    width: 1000px;
+    height: 500px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    h3{
+        font-size: 18px;
+        color: $font-color;
+        font-weight: 500;
+    }
+    .react-tabs {
+        -webkit-tap-highlight-color: transparent;
+        &__tab-list {
+          border-bottom: 1px solid #dedede;
+          margin: 0 0 10px;
+          padding: 0;
+          color: blue;
+        }
+        &__tab {
+          display: inline-block;
+          border: 1px solid transparent;
+          border-bottom: none;
+          bottom: -1px;
+          position: relative;
+          list-style: none;
+          width: 100px;
+          padding: 6px 12px;
+          text-align: center;
+          cursor: pointer;
+          font-weight: 500;
+          &--selected {
+            background: #fff;
+            border-color: #dedede;
+            border-radius: 5px 5px 0 0;
+            color: $font-color;
+          }
+          &--disabled {
+            cursor: default;
+          }
+          &:focus {
+            box-shadow: 0 0 5px hsl(208, 99%, 50%);
+            border-color: hsl(208, 99%, 50%);
+            outline: none;
+            &:after {
+              content: "";
+              position: absolute;
+              height: 5px;
+              left: -4px;
+              right: -4px;
+              bottom: -5px;
+              background: #fff;
+            }
+          }
+        }
+        &__tab-panel {
+          display: none;
+      
+          &--selected {
+            display: block;
+          }
+        }
+      }
+      
+
+}

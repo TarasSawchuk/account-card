@@ -1,0 +1,73 @@
+.details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .list{
+        width: 50px;
+        color: #4a4a4a;
+        &:hover{
+            color: blue;
+        }
+    }
+    .tip{
+        font-style: italic;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    }
+    .user-container{
+        padding: 0px 20px 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        box-shadow: 0 0 4px rgba(0,0,0,0.3);
+        &:hover{
+            box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+        }
+        .user-container__info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+            width: 50%;
+            p{
+                font-size: 13px;
+                line-height: 13px;
+                color: #b7b7b7;
+            }
+            button{
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+                color: #4a4a4a;
+                &:hover{
+                    color: blue;
+                }
+            }
+        }
+    }
+    .integration-btn{
+        display: flex;
+        justify-content: center;
+        width: 158px;
+        height: 34px;
+        margin-top: 30px;
+        border-radius: 17px;
+        background-color: #ffffff;
+        border: 1px solid #1e84d7;
+        text-align: center;
+        font-size: 14px;
+        text-align: center;
+        color:#1e84d7;
+        cursor: pointer;
+        .btn-content{
+            display: flex;
+            align-items: center;
+            margin: 0px;
+            padding-left: 8px;
+        }
+        &:hover{
+            background-color: #1e84d7;
+            color: white;
+        }
+    }
+}
