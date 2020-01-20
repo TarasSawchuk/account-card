@@ -5,4 +5,4 @@
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-![Screenshot](https://github.com/TarasSawchuk/account-card/raw/master/account-card/Account-page-review.png)
+![app review](https://github.com/TarasSawchuk/account-card/raw/master/Account-page-review.png)
